@@ -1,5 +1,6 @@
-# ElloOSSUIFonts
 [![CI Status](https://img.shields.io/travis/ello/ElloOSSUIFonts.svg?style=flat)](https://travis-ci.org/ello/ElloOSSUIFonts)
+
+# ElloOSSUIFonts
 
 Ello OSS iOS fonts, wrapped as a CocoaPod
 
@@ -15,7 +16,7 @@ To install the Specs repo run:
 
 To install the pod, add following line to your Podfile:
 
-    pod "Ello+OSSUIFonts"
+    pod "ElloOSSUIFonts"
 
 Add the ello specs repo to your project's Podfile
 
