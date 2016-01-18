@@ -1,4 +1,8 @@
 # ElloOSSUIFonts
+[![CI Status](https://img.shields.io/travis/ello/ElloOSSUIFonts.svg?style=flat)](https://travis-ci.org/ello/ElloOSSUIFonts)
+[![Version](https://img.shields.io/cocoapods/v/ElloOSSUIFonts.svg?style=flat)](https://github.com/ello/ElloOSSUIFonts)
+[![License](https://img.shields.io/cocoapods/l/ElloOSSUIFonts.svg?style=flat)](https://github.com/ello/ElloOSSUIFonts)
+[![Platform](https://img.shields.io/cocoapods/p/ElloOSSUIFonts.svg?style=flat)](https://github.com/ello/ElloOSSUIFonts)
 Ello OSS iOS fonts, wrapped as a CocoaPod
 
 Ello's open source iOS app uses licensed fonts, this pod allows non-ello staff to build the app with system fonts.
