@@ -7,3 +7,7 @@ install:
 xcode_workspace: Example/ElloOSSUIFonts.xcworkspace
 xcode_scheme: ElloOSSUIFonts-Example
 xcode_sdk: iphonesimulator
+notifications:
+  email: false
+  slack:
+    secure: ZikJQt/R40LMj27fu2ub9Zq87FF6kZXx3fXy9lz/nWFuc7EWcQC8SzVOCizSp+cq/wrsyBPfitkQwVsFpxx/6aJC0r+t4/zIwK21aLIkkHYLzS5qJpifYeTp7kAiQ0eFWLNLxRSwDVEMlfcvgHl7kGmvJQkzHm9mkQaWBJAJayc=
