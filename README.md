@@ -9,18 +9,17 @@ Ello's open source iOS app uses licensed fonts, this pod allows non-ello staff t
 
 `ElloOSSUIFonts` is available through [Ello Specs Repo](https://github.com/ello/cocoapod-specs).
 
-Add the ello specs repo to your project's Podfile
-
-`source 'https://github.com/ello/cocoapod-specs.git'`
-
-
 To install the Specs repo run:
-
-    pod repo add ello https://github.com/ello/specs.git
+	
+    pod repo add ello https://github.com/ello/cocoapod-specs.git
 
 To install the pod, add following line to your Podfile:
 
     pod "Ello+OSSUIFonts"
+
+Add the ello specs repo to your project's Podfile
+
+	source 'https://github.com/ello/cocoapod-specs.git'
 
 ## Usage
 
