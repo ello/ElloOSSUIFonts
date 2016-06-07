@@ -1,5 +1,7 @@
 extension UIFont {
 
+    public class func loadFonts() {}
+
     public class func defaultFont(size: CGFloat = 14) -> UIFont { return UIFont.systemFontOfSize(size) }
 
     public class func defaultBoldFont(size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFontOfSize(size) }

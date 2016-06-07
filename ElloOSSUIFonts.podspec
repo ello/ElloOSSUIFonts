@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ElloOSSUIFonts'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'The Open Source fonts for Ello apps.'
   s.homepage         = 'https://github.com/ello/ElloOSSUIFonts'
   s.license          = 'MIT'
