@@ -20,7 +20,7 @@ extension UIFont {
 
     public class func editorBoldItalicFont(size: CGFloat = 14) -> UIFont {
         let descriptor = UIFont.systemFontOfSize(size).fontDescriptor().fontDescriptorWithSymbolicTraits([.TraitBold, .TraitItalic])
-        return UIFont(descriptor: descriptor, size: size)
+        return UIFont(descriptor: descriptor!, size: size)
     }
 
     public class func printAvailableFonts() {
