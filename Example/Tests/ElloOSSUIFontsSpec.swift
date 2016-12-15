@@ -9,7 +9,7 @@ class ElloOSSUIFontsSpec: QuickSpec {
         describe("ElloOSSUIFonts") {
 
             it("defaultFont is the correct font") {
-                expect(UIFont.defaultFont(18).fontName) == ".SFUIText-Regular"
+                expect(UIFont.defaultFont(18).fontName) == ".SFUIText"
             }
 
             it("defaultBoldFont is the correct font") {
@@ -21,7 +21,7 @@ class ElloOSSUIFontsSpec: QuickSpec {
             }
 
             it("regularFont is the correct font") {
-                expect(UIFont.regularFont(18).fontName) == ".SFUIText-Regular"
+                expect(UIFont.regularFont(18).fontName) == ".SFUIText"
             }
 
             it("regularBoldFont is the correct font") {
@@ -29,7 +29,7 @@ class ElloOSSUIFontsSpec: QuickSpec {
             }
 
             it("editorFont is the correct font") {
-                expect(UIFont.editorFont(18).fontName) == ".SFUIText-Regular"
+                expect(UIFont.editorFont(18).fontName) == ".SFUIText"
             }
 
             it("editorItalicFont is the correct font") {

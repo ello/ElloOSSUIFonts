@@ -2,32 +2,32 @@ extension UIFont {
 
     public class func loadFonts() {}
 
-    public class func defaultFont(size: CGFloat = 14) -> UIFont { return UIFont.systemFontOfSize(size) }
+    public class func defaultFont(_ size: CGFloat = 14) -> UIFont { return UIFont.systemFont(ofSize: size) }
 
-    public class func defaultBoldFont(size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFontOfSize(size) }
+    public class func defaultBoldFont(_ size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFont(ofSize: size) }
 
-    public class func defaultItalicFont(size: CGFloat = 14) -> UIFont { return UIFont.italicSystemFontOfSize(size) }
+    public class func defaultItalicFont(_ size: CGFloat = 14) -> UIFont { return UIFont.italicSystemFont(ofSize: size) }
 
-    public class func regularFont(size: CGFloat = 14) -> UIFont { return UIFont.systemFontOfSize(size) }
+    public class func regularFont(_ size: CGFloat = 14) -> UIFont { return UIFont.systemFont(ofSize: size) }
 
-    public class func regularBoldFont(size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFontOfSize(size) }
+    public class func regularBoldFont(_ size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFont(ofSize: size) }
 
-    public class func editorFont(size: CGFloat = 14) -> UIFont { return UIFont.systemFontOfSize(size) }
+    public class func editorFont(_ size: CGFloat = 14) -> UIFont { return UIFont.systemFont(ofSize: size) }
 
-    public class func editorItalicFont(size: CGFloat = 14) -> UIFont { return UIFont.italicSystemFontOfSize(size) }
+    public class func editorItalicFont(_ size: CGFloat = 14) -> UIFont { return UIFont.italicSystemFont(ofSize: size) }
 
-    public class func editorBoldFont(size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFontOfSize(size) }
+    public class func editorBoldFont(_ size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFont(ofSize: size) }
 
-    public class func editorBoldItalicFont(size: CGFloat = 14) -> UIFont {
-        let descriptor = UIFont.systemFontOfSize(size).fontDescriptor().fontDescriptorWithSymbolicTraits([.TraitBold, .TraitItalic])
-        return UIFont(descriptor: descriptor, size: size)
+    public class func editorBoldItalicFont(_ size: CGFloat = 14) -> UIFont {
+        let descriptor = UIFont.systemFont(ofSize: size).fontDescriptor.withSymbolicTraits([.traitBold, .traitItalic])
+        return UIFont(descriptor: descriptor!, size: size)
     }
 
     public class func printAvailableFonts() {
-        for familyName:AnyObject in UIFont.familyNames()
+        for familyName in UIFont.familyNames
         {
             print("Family Name: \(familyName)")
-            for fontName:AnyObject in UIFont.fontNamesForFamilyName(familyName as! String)
+            for fontName in UIFont.fontNames(forFamilyName: familyName as! String)
             {
                 print("--Font Name: \(fontName)")
             }

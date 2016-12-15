@@ -1,22 +1,22 @@
 PODS:
-  - ElloOSSUIFonts (1.0.0)
-  - Nimble (3.0.0)
-  - Quick (0.8.0)
+  - ElloOSSUIFonts (2.0.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
 
 DEPENDENCIES:
   - ElloOSSUIFonts (from `../`)
-  - Nimble (= 3.0.0)
-  - Quick (~> 0.8.0)
+  - Nimble (~> 5.1.0)
+  - Quick (~> 1.0.0)
 
 EXTERNAL SOURCES:
   ElloOSSUIFonts:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ElloOSSUIFonts: ba5c2d5036b9da06195ec32f1d027839056547e8
-  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  ElloOSSUIFonts: ca8b532b922cbff579aecf46fdaa73364dc25f36
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: 8979ef5c92f883a58541aac0e4e53d9da6b149d6
+PODFILE CHECKSUM: fc41b16779a88724d6d73e8578213cbbd65c9572
 
-COCOAPODS: 1.0.0.beta.2
+COCOAPODS: 1.1.1

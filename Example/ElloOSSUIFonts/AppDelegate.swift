@@ -14,10 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = UIViewController()
-        self.window?.rootViewController?.view.backgroundColor = UIColor.redColor()
+        self.window?.rootViewController?.view.backgroundColor = UIColor.red
         self.window?.makeKeyAndVisible()
 
         print("This Demo application is only provided to host the font files. Run the unit tests.")
