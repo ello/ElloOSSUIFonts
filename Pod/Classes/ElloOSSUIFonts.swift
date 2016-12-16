@@ -27,7 +27,7 @@ extension UIFont {
         for familyName in UIFont.familyNames
         {
             print("Family Name: \(familyName)")
-            for fontName in UIFont.fontNames(forFamilyName: familyName as! String)
+            for fontName in UIFont.fontNames(forFamilyName: familyName)
             {
                 print("--Font Name: \(fontName)")
             }
