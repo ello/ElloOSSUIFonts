@@ -9,6 +9,7 @@ extension UIFont {
     public class func regularBoldFont(_ size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFont(ofSize: size) }
     public class func regularBlackFont(_ size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFont(ofSize: size) }
     public class func regularBlackItalicFont(_ size: CGFloat = 14) -> UIFont { return UIFont.italicSystemFont(ofSize: size) }
+    public class func regularLightFont(_ size: CGFloat = 14) -> UIFont { return UIFont.systemFont(ofSize: size) }
     public class func editorFont(_ size: CGFloat = 14) -> UIFont { return UIFont.systemFont(ofSize: size) }
     public class func editorItalicFont(_ size: CGFloat = 14) -> UIFont { return UIFont.italicSystemFont(ofSize: size) }
     public class func editorBoldFont(_ size: CGFloat = 14) -> UIFont { return UIFont.boldSystemFont(ofSize: size) }
